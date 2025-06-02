@@ -6,7 +6,7 @@ Welcome to the QA Documentation Portfolio. This repository contains essential qu
 ## 📁 Index of Documents
 
 ### ✅ Project Overview
-- [README.md](./README.md) — High-level summary of the QA work, scope, and tools used.
+- [README.md](./README) — High-level summary of the QA work, scope, and tools used.
 
 ### 🧩 Test Artifacts
 - [test-plan.md](./testplan) — Comprehensive test plan covering objectives, scope, strategy, resources, and schedule.
