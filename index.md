@@ -6,30 +6,22 @@ Welcome to the QA Documentation Portfolio. This repository contains essential qu
 ## 📁 Index of Documents
 
 ### ✅ Project Overview
-- [README.md](./README) — High-level summary of the QA work, scope, and tools used.
+- [README](./README) — High-level summary of the QA work, scope, and tools used.
 
 ### 🧩 Test Artifacts
-- [test-plan.md](./testplan) — Comprehensive test plan covering objectives, scope, strategy, resources, and schedule.
-- [test-cases-login.md](./testcases) — Detailed test cases for the login module.
-- [traceability-matrix.md](./traceability-matrix) — Requirement-to-test case mapping for traceability.
+- [test-plan](./testplan) — Comprehensive test plan covering objectives, scope, strategy, resources, and schedule.
+- [test-cases-login](./testcases) — Detailed test cases for the login module.
+- [traceability-matrix](./traceability-matrix) — Requirement-to-test case mapping for traceability.
 
 ### 🐞 Defect Management
-- [defect-tracking.md](./defect-tracking) — Defect log with severity, priority, status, and resolution tracking.
-- [bug-lifecycle.md](./bug-lifecycle) — Bug lifecycle diagram and detailed stage descriptions.
+- [defect-tracking](./defect-tracking) — Defect log with severity, priority, status, and resolution tracking.
+- [bug-lifecycle](./bug-lifecycle) — Bug lifecycle diagram and detailed stage descriptions.
 
 ### 📊 Reporting & Monitoring
-- [daily-status-report.md](./daily-status-report) — Sample Daily Status Report for test progress and blockers.
+- [daily-status-report](./daily-status-report) — Sample Daily Status Report for test progress and blockers.
 
 ### ⚙️ Test Environment
-- [environment-setup.md](./environment-setup) — Setup instructions for test environment (local or staging).
-
----
-
-## 📌 How to Use
-
-1. Click on each document to view QA artifacts and templates.
-2. Clone or download this repository for internal projects or interview prep.
-3. All files are in markdown format for easy viewing and editing.
+- [environment-setup](./environment-setup) — Setup instructions for test environment (local or staging).
 
 ---
 
