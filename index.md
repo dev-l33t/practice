@@ -9,19 +9,19 @@ Welcome to the QA Documentation Portfolio. This repository contains essential qu
 - [README.md](./README.md) — High-level summary of the QA work, scope, and tools used.
 
 ### 🧩 Test Artifacts
-- [test-plan.md](./test-plan.md) — Comprehensive test plan covering objectives, scope, strategy, resources, and schedule.
-- [test-cases-login.md](./test-cases-login.md) — Detailed functional test cases for the login module.
-- [traceability-matrix.md](./traceability-matrix.md) — Requirement-to-test case mapping for traceability.
+- [test-plan.md](./testplan) — Comprehensive test plan covering objectives, scope, strategy, resources, and schedule.
+- [test-cases-login.md](./testcases) — Detailed test cases for the login module.
+- [traceability-matrix.md](./traceability-matrix) — Requirement-to-test case mapping for traceability.
 
 ### 🐞 Defect Management
-- [defect-tracking.md](./defect-tracking.md) — Defect log with severity, priority, status, and resolution tracking.
-- [bug-lifecycle.md](./bug-lifecycle.md) — Bug lifecycle diagram and detailed stage descriptions.
+- [defect-tracking.md](./defect-tracking) — Defect log with severity, priority, status, and resolution tracking.
+- [bug-lifecycle.md](./bug-lifecycle) — Bug lifecycle diagram and detailed stage descriptions.
 
 ### 📊 Reporting & Monitoring
-- [daily-status-report.md](./daily-status-report.md) — Sample Daily Status Report for test progress and blockers.
+- [daily-status-report.md](./daily-status-report) — Sample Daily Status Report for test progress and blockers.
 
 ### ⚙️ Test Environment
-- [environment-setup.md](./environment-setup.md) — Setup instructions for test environment (local or staging).
+- [environment-setup.md](./environment-setup) — Setup instructions for test environment (local or staging).
 
 ---
 
