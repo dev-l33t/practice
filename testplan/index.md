@@ -1,64 +1,85 @@
-# Test Plan for Practice
+# 🧪 Test Plan for Practice Application
 
 ## 1. Introduction
-This document outlines the test plan for the practice an application. The purpose is to verify that the software meets all functional and non-functional requirements.
+This document outlines the test plan for validating a practice web application. The goal is to ensure the system functions as expected and is free from major defects prior to release.
 
 ## 2. Objectives
-- Validate functional correctness of all features
-- Ensure the application is user-friendly and stable
-- Detect and report bugs before release
+- Validate the functional correctness of the core modules
+- Ensure usability, consistency, and stability of the system
+- Detect, report, and track defects to resolution before deployment
 
 ## 3. Scope
-- Functional testing of Login, Registration, User Dashboard, and UI components  
-- Basic performance and usability testing  
-- Manual testing with some automation planned for regression
+
+### In Scope
+- Functional Testing of:
+  - User Login
+  - User Registration
+  - User Dashboard
+  - UI Components
+- Basic usability and performance validation
+
+### Out of Scope
+- Performance benchmarking under load
+- Penetration or security testing
 
 ## 4. Test Items
-- User Login Module  
-- User Registration Module  
-- User Interface (UI)  
-- Error Handling and Validations
+- **Login Module**
+- **Registration Module**
+- **User Interface (Forms, Layouts, Navigation)**
+- **Form Validations and Error Handling**
 
 ## 5. Testing Types
-- Manual Functional Testing  
-- Regression Testing  
-- UI Testing  
-- Boundary Value Testing
+- Manual Functional Testing
+- Regression Testing
+- UI/UX Testing
+- Boundary Value Analysis (BVA)
+- Exploratory Testing
 
 ## 6. Testing Approach
-- Test cases will be executed based on requirements  
-- Defect reporting and tracking through [Bug Tracking Tool]  
-- Re-testing and regression after fixes
+- Test cases will be created based on the requirements/user stories
+- Testing will be conducted manually with automation scripts planned for regression
+- Bugs will be logged using a defect tracking tool (e.g., Jira)
+- Re-testing and regression cycles will follow each build fix
 
 ## 7. Resources
-- Testing Team: 1 QA Intern (You)  
-- Tools: Jira (Bug Tracking), Postman (API Testing), Selenium (Automation - planned)
+- **Testing Team:** 1 QA Intern (Pratik Joshi)
+- **Tools Used:**
+  - Jira (Defect Tracking)
+  - Postman (API Testing)
+  - Selenium (Automated Testing — Future Scope)
+  - Excel/Markdown (Test Documentation)
 
-## 8. Environment
-- OS: Windows 10 / macOS  
-- Browsers: Chrome, Firefox, Edge  
-- Test Data: Dummy user accounts and inputs
+## 8. Environment Setup
+- **OS:** Windows 10 / macOS
+- **Browsers:** Chrome, Firefox, Edge (latest versions)
+- **Devices:** Desktop only (mobile testing not in scope)
+- **Test Data:** Dummy accounts and test inputs provided by QA
 
 ## 9. Deliverables
-- Test Cases Document  
-- Test Summary Report  
-- Bug Reports
+- `test-cases-login.md` — Functional test cases
+- `defect-tracking.md` — Defect log/report
+- `daily-status-report.md` — Execution progress report
+- `traceability-matrix.md` — Requirement-to-test coverage matrix
+- Final test summary report upon completion
 
-## 10. Schedule
-| Activity              | Start Date | End Date   |
-|-----------------------|------------|------------|
-| Test Planning         | 2025-06-05 | 2025-06-06 |
-| Test Case Preparation  | 2025-06-07 | 2025-06-09 |
+## 10. Test Schedule
+
+| Activity               | Start Date | End Date   |
+|------------------------|------------|------------|
+| Test Planning          | 2025-06-05 | 2025-06-06 |
+| Test Case Design       | 2025-06-07 | 2025-06-09 |
 | Test Execution         | 2025-06-10 | 2025-06-14 |
-| Defect Reporting       | Ongoing    | Ongoing    |
+| Defect Logging & Retest| 2025-06-10 | Ongoing    |
 | Test Closure           | 2025-06-15 | 2025-06-15 |
 
 ## 11. Risks & Mitigation
-| Risk                    | Mitigation                   |
-|-------------------------|------------------------------|
-| Limited automation skills | Focus on manual testing initially and learn automation gradually |
-| Time constraints          | Prioritize critical test cases and smoke tests |
+
+| Risk                          | Mitigation Strategy                                                 |
+|-------------------------------|----------------------------------------------------------------------|
+| Limited automation expertise  | Begin with manual testing and gradually explore Selenium basics     |
+| Time constraints              | Prioritize smoke and high-impact test cases                         |
+| Unclear requirements          | Raise clarifications early with stakeholders or mentors             |
 
 ---
 
-*Prepared by:* Pratik Joshi
+**Prepared by:** _Pratik Joshi_  
